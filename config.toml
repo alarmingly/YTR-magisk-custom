@@ -9,6 +9,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change header'"
 excluded-patches = "'Always repeat' 'GmsCore support' 'Client spoof' 'Disable zoom haptics' 'Enable debugging' 'Tablet mini player' 'Hide captions button' 'Hide autoplay button' 'Hide cast button' 'Hide player buttons' 'Hide video action buttons' 'Custom player overlay opacity' 'Spoof app version' 'Hide floating microphone button' 'Hide endscreen cards' 'Hide album cards' 'Hide timestamp'"
+module-prop-name = "YTR custom build" # magisk module prop name.
 
 [Music]
 build-mode = "both"
